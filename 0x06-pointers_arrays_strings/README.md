@@ -1,1 +1,1 @@
-my point read me
+More pointers, arrays and strings
