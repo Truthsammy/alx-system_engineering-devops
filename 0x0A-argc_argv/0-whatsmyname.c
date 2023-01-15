@@ -3,15 +3,14 @@
 
 /**
  * main - prints the name of the program
- * @argc: count arguements
- * @argv: arguements
+ * @argc: number arguements
+ * @argv: array of arguements
  * Return: Always 0 (success)
  */
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-(void) argc;
-printf("%s\n", *argv);
+	printf("%s\n", *argv);
 
-return (0);
+	return (0);
 }
